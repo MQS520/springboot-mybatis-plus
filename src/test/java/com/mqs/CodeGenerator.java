@@ -22,7 +22,7 @@ public class CodeGenerator {
     public static void main(String[] args){
 
         //代码生成路径
-        final String projectPath = "E:\\MQS\\project_space\\springboot-mybatis-plus";
+        final String projectPath = System.getProperty("user.dir");
         //数据库连接地址
         final String dataSourceUrl = "localhost:3306";
         //数据库名称
